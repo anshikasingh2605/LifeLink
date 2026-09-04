@@ -1,0 +1,21 @@
+{
+  "name": "lifelinkbackend",
+  "version": "1.0.0",
+  "description": "LifeLink Backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "modules",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "mongoose": "^8.9.5"
+  }
+}
